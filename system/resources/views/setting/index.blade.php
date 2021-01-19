@@ -10,7 +10,6 @@
 						Ganti Password
 					</div>
 					<div class="card-body">
-						<!-- User : {{$user->email}} -->
 						 <form action="{{url('setting')}}" method="post">
 						@csrf
 						<div class="form-group">

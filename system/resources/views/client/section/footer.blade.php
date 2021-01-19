@@ -15,11 +15,11 @@
                                     <ul class="des">
                                         <li>
                                             <span>Address: </span>
-                                            6688Princess Road, London, Greater London BAS 23JK, UK
+                                            Indonesia, Kalimantan Barat, Ketapang
                                         </li>
                                         <li>
-                                            <span>Phone: </span>
-                                            <a href="#">(+123) 123 321 345</a>
+                                            <span>Telpon: </span>
+                                            <a href="#">(+82) 123 321 345</a>
                                         </li>
                                         <li>
                                             <span>Email: </span>

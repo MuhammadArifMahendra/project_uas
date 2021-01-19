@@ -427,7 +427,7 @@
                 <div class="container">
                     <div class="breadcrumb-content">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="{{url('home')}}">Home</a></li>
                             <li class="active">Single Product</li>
                         </ul>
                     </div>
@@ -502,7 +502,7 @@
                                         </ul>
                                     </div>
                                     <div class="price-box pt-20">
-                                        <span class="new-price new-price-2">$57.98</span>
+                                        <span class="new-price new-price-2">Rp.7.046.800</span>
                                     </div>
                                     <div class="product-desc">
                                         <p>

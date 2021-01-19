@@ -1,8 +1,8 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <a href="#" class="brand-link">
-      <img src="{{url('public')}}/src/img/sugoi.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+      <img src="{{url('public')}}/src/img/2.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">Sugoi Store</span>
+      <span class="brand-text font-weight-light"></span>
     </a>
 
     <div class="sidebar">

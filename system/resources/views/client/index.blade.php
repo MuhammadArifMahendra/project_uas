@@ -51,12 +51,13 @@
         <div class="body-wrapper">
           @include('client.section.header')
  
-            <!-- Li's Static Banner Area End Here -->
-           //--------------
-                                 
+  <!-- Li's Static Banner Area End Here -->
+           @yield('content')
+                          
                         <!-- Footer Shipping Area End Here -->
                     </div>
                 </div>
+
             @include('client.section.footer') 
                 <!-- Footer Static Bottom Area End Here -->
             </div>
@@ -102,6 +103,7 @@
                                             <div class="sm-image"><img src="{{url('public')}}/limupa/images/product/small-size/6.jpg" alt="product image thumb"></div>
                                         </div>
                                     </div>
+
                                     <!--// Product Details Left -->
                                 </div>
 

@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 class HomeController extends Controller{
 
+	function showhome(){
+		return view('client.home', $data);
+	}
+
 	function showberanda(){
 		return view('template.beranda');
 	}

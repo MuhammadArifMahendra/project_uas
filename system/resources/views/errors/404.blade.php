@@ -32,6 +32,14 @@
     left: 68%;
     top: 8%;
   }
+   .err3 {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11rem;
+    position:absolute;
+    left: 44%;
+    top: 8%;
+  }
 .msg {
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
@@ -64,7 +72,7 @@ a:hover {
   </center>
   <div class="mainbox">
     <div class="err">4</div>
-    <i class="far fa-question-circle"></i>
+    <div class="err3">0</div>
     <div class="err2">4</div>
     <div class="msg">Anda tidak berhak disini<p>Hayukkkk <a href="admin/beranda">home</a> Kembali sana.</p></div>
   </div>

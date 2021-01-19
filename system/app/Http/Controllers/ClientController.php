@@ -11,4 +11,8 @@ class ClientController extends Controller{
 	function detail(){
 		return view('client/detail');
 	}
+
+	function home(){
+		return view('client/home');
+	}
 }

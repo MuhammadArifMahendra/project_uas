@@ -8,7 +8,7 @@
                             <div class="col-lg-3 col-md-4">
                                 <div class="header-top-left">
                                     <ul class="phone-wrap">
-                                        <li><span>Telephone Enquiry:</span><a href="#">(+123) 123 321 345</a></li>
+                                        <li><span>Telpon:</span><a href="#">(+82) 123 321 345</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -22,9 +22,9 @@
                                             <div class="ht-setting-trigger"><span>Setting</span></div>
                                             <div class="setting ht-setting">
                                                 <ul class="ht-setting-list">
-                                                    <li><a href="login-register.html">My Account</a></li>
+                                                    <li><a href="{{url('login')}}">My Account</a></li>
                                                     <li><a href="checkout.html">Checkout</a></li>
-                                                    <li><a href="login-register.html">Sign In</a></li>
+                                                    <li><a href="{{url('registrasi')}}">Sign In</a></li>
                                                 </ul>
                                             </div>
                                         </li>
@@ -32,11 +32,11 @@
                                         <!-- Begin Currency Area -->
                                         <li>
                                             <span class="currency-selector-wrapper">Currency :</span>
-                                            <div class="ht-currency-trigger"><span>USD $</span></div>
+                                            <div class="ht-currency-trigger"><span>Rp </span></div>
                                             <div class="currency ht-currency">
                                                 <ul class="ht-setting-list">
                                                     <li><a href="#">EUR €</a></li>
-                                                    <li class="active"><a href="#">USD $</a></li>
+                                                    <li class="active"><a href="#">Rp €</a></li>
                                                 </ul>
                                             </div>
                                         </li>

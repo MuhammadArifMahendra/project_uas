@@ -35,7 +35,7 @@ Route::post('setting', [SettingController::class, 'store']);
 
 
 Route::get('test/{produk}', [HomeController::class, 'test']);
-
+Route::get('client', [HomeController::class, 'showhome']);
 
 
 Route::prefix('admin')->middleware('auth')->group(function(){
@@ -49,7 +49,12 @@ Route::prefix('admin')->middleware('auth')->group(function(){
 
 });
 
+
+// client
+
 Route::get('index', [ClientController::class, 'index']);
 Route::get('base', [ClientController::class, 'base']);
 Route::get('beli', [ClientController::class, 'beli']);
 Route::get('detail', [ClientController::class, 'detail']);
+Route::get('home', [ClientController::class, 'home']);
+
